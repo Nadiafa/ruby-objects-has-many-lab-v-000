@@ -5,7 +5,7 @@ class Song
   @@all = []
   
   def self.all 
-    @@all   
+    @@all.inspect 
   end 
   
   def initialize(name)
